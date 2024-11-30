@@ -8,6 +8,7 @@
 PHP
 БД:
 MySQL.
+
 админ:
 ![Снимок веб-страницы_30-11-2024_83653_www figma com](https://github.com/user-attachments/assets/773b8ef9-2af7-4452-bfca-54198861a0df)
 пользователь:
