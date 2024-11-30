@@ -1,6 +1,6 @@
 # HOME
 МЕНЯ ЗАСТАВИЛИ ЕГО СДЕЛАТЬ
-![empty](https://github.com/user-attachments/assets/df55ff36-ef89-43c5-a570-6232249d8a23)
+![image](https://github.com/user-attachments/assets/11992ff3-25b8-47ed-8894-0d4c186d7440)
 техналогии:
 фронтэнд:
 джаваскрипт, HTML, CSS.
