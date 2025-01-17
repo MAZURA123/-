@@ -17,7 +17,8 @@
       echo "Подключение к MySQL успешно!";
   }
  catch (PDOException $e) {
-      echo "Ошибка подключения к MySQL:" . $e->getMessage();}?>
+      echo "Ошибка подключения к MySQL:" . $e->getMessage();}
+      ?>
   </div>
   <div class="form_auth_block">
     <div class="form_auth_block_content">
@@ -33,23 +34,21 @@
         </div>
       <style>
       .form_block{
-      width: 2492px;
-      height: 150px;
-      margin: 0 auto;
-      background-color: #51C0F8;
-      position: absolute;
-      left: -1px;
-      top: -1px;
-      }
-      .form_block2{
-      width: 2492px;
-      height: 150px;
-      margin: 0 auto;
-      background-color: #51C0F8;
-      position: absolute;
-      left: -1px;
-      top: 92%;
-      }
+        width: 100%;
+       height: 150px;
+       margin: 0 auto;
+       background-color: #51C0F8;
+       position: absolute;
+       left: -1px;
+       top: -1px;}
+       .form_block2{
+        width: 100%;
+       height: 150px;
+       margin: 0 auto;
+       background-color: #51C0F8;
+       position: absolute;
+       left: -1px;
+       top: 82.5%;}
       .form_auth_block{
       width: 500px;
       height: 370px;
