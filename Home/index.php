@@ -8,27 +8,16 @@
     <div class="form_block">
     </div>
   <div class="form_block2">
-    <?php
-     $dsn = 'mysql:host=localhost;dbname=HOME';
-     $username = 'root';
-     $password = '';
-     try {
-      $pdo = new PDO($dsn, $username, $password);
-      echo "Подключение к MySQL успешно!";
-  }
- catch (PDOException $e) {
-      echo "Ошибка подключения к MySQL:" . $e->getMessage();}
-      ?>
   </div>
   <div class="form_auth_block">
     <div class="form_auth_block_content">
       <p class="form_auth_block_head_text">Авторизация</p>
-         <form class="form_auth_style">
+         <form action="aftoriz.php">
             <label>Введите Ваш Логин</label>
-              <input placeholder="Введите Ваш Логин" required>
+              <input type="text" placeholder="login" name="login">
                <label>Введите Ваш Пароль</label>
-                <input placeholder="Введите Пароль" required>
-                <a class="form_auth_button2" href="ponel/ponel.html">Войти</a>
+               <input type="text" placeholder="password" name="pass">
+               <Button class="form_auth_button2" type="submit">войти</Button> 
               </form>
             </div>
         </div>
